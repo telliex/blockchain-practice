@@ -148,6 +148,41 @@ console.log(balance.toString());
 
 ```
 
+## Project Structure
+
+```bash
+blockchain-practice/
+├── client/                 # Frontend application
+│   ├── src/
+│   │   ├── App.js          # Main React component
+│   │   ├── web3.js         # Web3 configuration
+│   │   └── MyToken.js      # Smart contract interaction
+│   ├── public/
+│   └── package.json
+├── contracts/              # Smart contracts
+│   └── MyToken.sol         # ERC20 Token contract
+├── migrations/             # Deployment scripts
+│   └── 2_deploy_contracts.js
+├── test/                   # Test scripts
+├── build/                  # Compiled contract artifacts
+├── truffle-config.js       # Truffle configuration
+└── package.json
+
+```
+
+## License
+
+This project is licensed under the MIT [License](https://chatgpt.com/c/LICENSE) - see the LICENSE file for details.
+
+## Acknowledgments
+
+Acknowledgments
+
+- [OpenZeppelin](https://openzeppelin.com/) for their ERC20 implementation
+- [Truffle Suite](https://www.trufflesuite.com/) for the development framework
+- [MetaMask](https://metamask.io/) for the Ethereum wallet and browser extension
+- Ganache for the personal blockchain
+
 ## Somethings that you need to know
 
 keep the version number
